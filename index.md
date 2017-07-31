@@ -16,10 +16,10 @@
 </head>
 <div>
 <li>
-<img src="img1">
+<img src="https://user-images.githubusercontent.com/30585201/28767850-576468d0-7610-11e7-857f-f857b94533af.jpg">
 </li>
 <li>
-<img src="img2">
+<img src="https://user-images.githubusercontent.com/30585201/28767946-be3e4670-7610-11e7-9de5-f753b608fa84.jpg">
 </li>
 </div>
 </html>

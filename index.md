@@ -13,19 +13,20 @@
 	<script type="text/javascript" src="https://www.myasset.com/WEB-APP/webponent/thirdParty/jquery/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="https://www.myasset.com/WEB-APP/webponent/thirdParty/jquery/jquery.bxslider.js"></script>
 	<script type="text/javascript">
-	  
-	  var imgBox =$('.infoWrap .bxslider').bxSlider({
-					minSlides: 1,
-					slideWidth:1000,
-					auto:true,
-					controls: true,
-					autoControls: false,
-					pager: true,
-					pagerType:'short',
-					pagerSelector:'.card_page .num',
-					hideControlOnEnd:true,
-					infiniteLoop:false,					
-				});		
+	  $(document).ready(function() {
+		  var imgBox =$('.infoWrap .bxslider').bxSlider({
+						minSlides: 1,
+						slideWidth:1000,
+						auto:true,
+						controls: true,
+						autoControls: false,
+						pager: true,
+						pagerType:'short',
+						pagerSelector:'.card_page .num',
+						hideControlOnEnd:true,
+						infiniteLoop:false,					
+					});
+	  });			      
 	</script>
 </head>
 <div class="infoWrap">

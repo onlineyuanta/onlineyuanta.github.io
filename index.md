@@ -9,12 +9,12 @@
 	<meta property="og:image" content="http://m.myasset.com/extern/researchPortal/common/img/mobile/sns_research.png">
 	<meta property="og:description" content="유안타증권 온라인서비스 DAY에 당신을 초대합니다.">
 	<title>유안타증권 온라인서비스 DAY에 당신을 초대합니다.</title>
-	<link rel="stylesheet" type="text/css" href="https://www.myasset.com/extern/researchPortal/common/css/mobile/m_css.css?=201706 />
+	<link rel="stylesheet" type="text/css" href="https://www.myasset.com/extern/researchPortal/common/css/mobile/m_css.css" />
 	<script type="text/javascript" src="https://www.myasset.com/WEB-APP/webponent/thirdParty/jquery/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="https://www.myasset.com/WEB-APP/webponent/thirdParty/jquery/jquery.bxslider.js"></script>
 	<script type="text/javascript">
 	  $(document).ready(function() {
-		  var imgBox =$('.infoWrap .bxslider').bxSlider({
+		  var imgBox =$('.bxslider').bxSlider({
 						minSlides: 1,
 						slideWidth:1000,
 						auto:true,
@@ -29,7 +29,7 @@
 	  });			      
 	</script>
 </head>
-<div class="infoWrap">
+<div>
 <ul class="bxslider">
 	<li><img src="https://user-images.githubusercontent.com/30585201/28767850-576468d0-7610-11e7-857f-f857b94533af.jpg"><div class="blind"></div>
 	</li>

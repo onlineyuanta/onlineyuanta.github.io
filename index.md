@@ -11,15 +11,29 @@
 	<title>유안타증권 온라인서비스 DAY에 당신을 초대합니다.</title>
         <script type="text/javascript" src="https://www.myasset.com/WEB-APP/webponent/thirdParty/jquery/jquery.bxslider.js"></script>
 	<script type="text/javascript">
-	 alert ("여기서 이미지를 슬라이딩한다.");
+	  var imgBox =$('.infoWrap .bxslider').bxSlider({
+					minSlides: 1,
+					slideWidth:1000,
+					auto:true,
+					controls: true,
+					autoControls: false,
+					pager: true,
+					pagerType:'short',
+					pagerSelector:'.card_page .num',
+					hideControlOnEnd:true,
+					infiniteLoop:false,					
+				});		
 	</script>
 </head>
-<div>
+<div class="infoWrap">
+<ul class="bxslider">
 <li>
 <img src="https://user-images.githubusercontent.com/30585201/28767850-576468d0-7610-11e7-857f-f857b94533af.jpg">
 </li>
 <li>
 <img src="https://user-images.githubusercontent.com/30585201/28767946-be3e4670-7610-11e7-9de5-f753b608fa84.jpg">
 </li>
+	</ul>
+<div class="card_page"><strong class="tit">Page Info :</strong><span class="num"></span></div>
 </div>
 </html>

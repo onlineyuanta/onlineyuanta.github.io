@@ -8,30 +8,18 @@
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="http://m.myasset.com/extern/researchPortal/common/img/mobile/sns_research.png">
 	<meta property="og:description" content="유안타증권 온라인서비스 DAY에 당신을 초대합니다.">
-	
-	<meta id="twitter_card" name="twitter:card" content="유유안타증권 투자정보 포털 - 티레이더 인포">
-	<meta id="twitter_url" name="twitter:url" content="https://m.myasset.com/extern/researchPortal/RP_0000000_P1.cmd?v=201707311632">
-	<meta id="twitter_title" name="twitter:title" content="유안타증권 투자정보 포털 - 티레이더 인포">
-	<meta id="twitter_description" name="twitter:description" content="유안타증권 티레이더 인포 유안타증권 투자정보 포털 - 티레이더 인포">
-	<meta id="twitter_image" name="twitter:image" content="https://m.myasset.com/extern/researchPortal/common/img/mobile/sns_research.png?v=201707311632">	
-
-	<link rel="apple-touch-icon-precomposed" href="/templets/resportal/mobile/img/research_logo_152.png" />
-	<link rel='shortcut icon' href="/templets/resportal/mobile/img/research_logo_152.png" />
-	
-	<title>유안타증권 티레이더 인포 - 유안타증권 투자정보 포털</title>
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script type="text/javascript">
+	<title>유안타증권 온라인서비스 DAY에 당신을 초대합니다.</title>
+        <script type="text/javascript" src="https://www.myasset.com/WEB-APP/webponent/thirdParty/jquery/jquery.bxslider.js"></script>
+	<script type="text/javascript">
+	 alert ("여기서 이미지를 슬라이딩한다.");
+	</script>
+</head>
+<div>
+<li>
+<img src="img1">
+</li>
+<li>
+<img src="img2">
+</li>
+</div>
+</html>
